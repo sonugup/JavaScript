@@ -3,7 +3,7 @@
 
 
 
-var tomr="rain"
+var tomr="sunny"
 if(tomr=='rain'){
     console.log('take a raincoat')
 }else{
