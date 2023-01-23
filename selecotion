@@ -1,0 +1,28 @@
+
+
+/*
+Selection sort is a sin=mple and efficient sortin algorithm that works by repeatedly
+Selection the smallest (or lasrgest) element from the unsorted portion of the list and
+moving it to the sorted portion of the list.
+ */
+
+
+ var arr= [3, 5, 6, 3, 6, 9, 5,7];
+
+ for(var i=0; i<arr.length; i++){
+    var min=i;
+    for(var j=i; j<arr.length; j++){
+        if(arr[j]>arr[min]){
+            min=j
+
+        }
+        swap(arr, j, min)
+    }
+ }
+
+ console.log(arr.join(" "))
+ function swap(arr, i, j){
+    let t=arr[i];
+    arr[i]=arr[j];
+    arr[j]=t;
+ }
