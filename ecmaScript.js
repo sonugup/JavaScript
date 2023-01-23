@@ -18,15 +18,15 @@
 // also known as ES6;
 // LET VS CONST va VAR
 
-var myName = "Sonu Gupta";
-console.log(myName);
-myName="CEO Sonu Gupta";
-console.log(myName)
-
-// let myName = "Sonu Gupta";
+// var myName = "Sonu Gupta";
 // console.log(myName);
 // myName="CEO Sonu Gupta";
 // console.log(myName)
+
+let myName = "Sonu Gupta";
+console.log(myName);
+myName="CEO Sonu Gupta";
+console.log(myName)
 
 //cons
 // // const myName = "Sonu Gupta";
