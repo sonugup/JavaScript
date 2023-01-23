@@ -76,12 +76,12 @@ Functions often compute a return value.
 the return value is "returned" back to the calle;
 */
 
-function sum (a, b){
-    return a+b;
-}
+// function sum (a, b){
+//     return a+b;
+// }
 
-var funExp=sum(5 , 38);
-console.log(funExp);
+// var funExp=sum(5 , 38);
+// console.log(funExp);
 
 // Anonymous Function;
 
