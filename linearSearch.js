@@ -8,7 +8,7 @@
 // }
 
 
-// let arr=[2, 4, 4, 6, 8]
+// let arr=[2, 5, 4, 6, 4]
 // let k=4
 
 // console.log(search(arr, k))
