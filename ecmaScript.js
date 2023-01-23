@@ -23,16 +23,16 @@
 // myName="CEO Sonu Gupta";
 // console.log(myName)
 
-let myName = "Sonu Gupta";
-console.log(myName);
-myName="CEO Sonu Gupta";
-console.log(myName)
-
-//cons
-// // const myName = "Sonu Gupta";
-// // console.log(myName);
-// const myName="CEO Sonu Gupta";
+// let myName = "Sonu Gupta";
+// console.log(myName);
+// myName="CEO Sonu Gupta";
 // console.log(myName)
+
+//const
+// const myName = "Sonu Gupta";
+// console.log(myName);
+const myName="CEO Sonu Gupta";
+console.log(myName)
 
 // var => Function scope
 // let and const => Block Scope
