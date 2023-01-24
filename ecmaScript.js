@@ -47,7 +47,7 @@ let arr=[2,4,6,4,3,6,3,3]
 
 let arr1=arr.reduce((accumulater, curElem) => {
     debugger;
-    return accumulater+=curElem;
+    return accumulater*=curElem;
 })
 
 console.log(arr1)
