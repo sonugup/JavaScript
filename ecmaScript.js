@@ -53,3 +53,18 @@
 // console.log(arr1)
 
 
+let arr1=[5,5,3,6,3,2]
+let arr2=[5,2,7,8,9]
+
+
+const arr=[["a", "a1"], ["a2","a3"],["a4", "a5"], ["a6","a7"],["a8", "a9"], ["a21","a31"]]
+
+
+
+let flatArr= arr.reduce((accum, currVal) => {
+    return accum.concat(currVal);
+})
+
+console.log(flatArr)
+
+
