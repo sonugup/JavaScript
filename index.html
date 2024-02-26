@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(9, 9, 54);
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    button{
+        background-color: rgb(194, 194, 5);
+        border: none;
+        color: white;
+        padding: 30px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+</style>
+<body>
+    
+    <div>
+        <div>
+            <p>Want to know my Name ?</p>
+            <div id="showMyName"></div>
+            <br>
+            <button id="btn">click here</button>
+        </div>
+    </div>
+</body>
+<script>
+    const showMyName=document.querySelector("#showMyName");
+    const btn=document.querySelector("#btn")
+
+    const myName=() => {
+        showMyName.innerHTML="Loading..."
+        setTimeout(() => {
+            showMyName.innerHTML="Sonu Gupta"
+        }, 1000)
+    }
+
+    btn.addEventListener('click', myName)
+</script>
+</html>

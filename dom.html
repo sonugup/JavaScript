@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(9, 9, 54);
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+    button{
+        background-color: rgb(194, 194, 5);
+        border: none;
+        color: white;
+        padding: 30px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+</style>
+<body>
+    <button class="button_us" onclick="goBack()">Go Back</button>
+
+    <p>Notice that clicking on the back button here will redirect</p>
+
+    <label>Entar your name</label>
+    <input type="text" name="" id="name">
+    <br>
+    <label>select fevrat chocklate</label>
+    <select name="iceCreams" id="iceCreams" onchange="selectEle()">
+        <option value="">Select One...</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="sardine">Sardine</option>
+        <option value="vanilla">Vanilla</option>
+    </select>
+
+    <br>
+    <div id="result"></div>
+
+    
+</body>
+</html>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+
+    const selectEle=() => {
+        const inputChange=document.getElementById("name").value;
+        const iceCreams=document.getElementById("iceCreams").value;
+        const result=document.getElementById("result");
+
+        result.innerText=`Mr ${inputChange} select ${iceCreams} ice-Creams flavour`
+    }
+</script>
